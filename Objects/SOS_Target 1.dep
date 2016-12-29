@@ -1,0 +1,14 @@
+Dependencies for Project 'SOS', Target 'Target 1': (DO NOT MODIFY !)
+F (.\SOS\sos.c)(0x5864C8F9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\SOS-ID:\AndyWork\RTOS\SOS\RTE\Device\CMSDK_CM3-ID:\AndyWork\RTOS\SOS\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\V2M-MPS2_CMx_BSP\1.5.0\Device\CMSDK_CM3\Include-D__UVISION_VERSION="522" -D_RTE_ -DCMSDK_CM3-o .\objects\sos.o --omf_browse .\objects\sos.crf --depend .\objects\sos.d)
+I (SOS\sos.h)(0x5864C8F9)
+F (.\APP\main.c)(0x5864C8F9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\SOS-ID:\AndyWork\RTOS\SOS\RTE\Device\CMSDK_CM3-ID:\AndyWork\RTOS\SOS\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\V2M-MPS2_CMx_BSP\1.5.0\Device\CMSDK_CM3\Include-D__UVISION_VERSION="522" -D_RTE_ -DCMSDK_CM3-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\SOS\sos.h)(0x5864C8F9)
+F (RTE\Device\CMSDK_CM3\RTE_Device.h)(0x5864C8F9)()
+F (RTE\Device\CMSDK_CM3\startup_CMSDK_CM3.s)(0x5864C8F9)(--cpu Cortex-M3 -g --16 --apcs=interwork -I .\SOS-ID:\AndyWork\RTOS\SOS\RTE\Device\CMSDK_CM3-ID:\AndyWork\RTOS\SOS\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\V2M-MPS2_CMx_BSP\1.5.0\Device\CMSDK_CM3\Include--pd "__UVISION_VERSION SETA 522" --pd "_RTE_ SETA 1" --pd "CMSDK_CM3 SETA 1"--list .\listings\startup_cmsdk_cm3.lst --xref -o .\objects\startup_cmsdk_cm3.o --depend .\objects\startup_cmsdk_cm3.d)
+F (RTE\Device\CMSDK_CM3\system_CMSDK_CM3.c)(0x5864C8F9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\SOS-ID:\AndyWork\RTOS\SOS\RTE\Device\CMSDK_CM3-ID:\AndyWork\RTOS\SOS\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\V2M-MPS2_CMx_BSP\1.5.0\Device\CMSDK_CM3\Include-D__UVISION_VERSION="522" -D_RTE_ -DCMSDK_CM3-o .\objects\system_cmsdk_cm3.o --omf_browse .\objects\system_cmsdk_cm3.crf --depend .\objects\system_cmsdk_cm3.d)
+I (D:\Keil_v5\ARM\PACK\Keil\V2M-MPS2_CMx_BSP\1.5.0\Device\CMSDK_CM3\Include\CMSDK_CM3.h)(0x5705E718)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x582539DE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x582539DE)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x582539DE)
+I (D:\Keil_v5\ARM\PACK\Keil\V2M-MPS2_CMx_BSP\1.5.0\Device\CMSDK_CM3\Include\system_CMSDK_CM3.h)(0x56FDD20A)

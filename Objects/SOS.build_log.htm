@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.22.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Changqing Luo, N/A, LIC=CRMQD-8BYQ6-AVF1J-U4S5F-3UTXY-3D4VG
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.22
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.22
+Dialog DLL:      DCM.DLL V1.13.9.0
+Target DLL:      UL2CM3.DLL V1.159.0.0
+Dialog DLL:      TCM.DLL V1.21.0.0
+ 
+<h2>Project:</h2>
+D:\AndyWork\RTOS\SOS\SOS.uvprojx
+Project File Date:  12/29/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+APP\main.c(190): warning:  #111-D: statement is unreachable
+  	return 0;
+APP\main.c: 1 warning, 0 errors
+compiling sos.c...
+SOS\sos.c(30): warning: A1581W: Added 2 bytes of padding at address 0xe
+SOS\sos.c(329): warning: A1581W: Added 2 bytes of padding at address 0x86
+linking...
+Program Size: Code=2036 RO-data=224 RW-data=44 ZI-data=4191700  
+".\Objects\SOS.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.0.pack
+                ARM::CMSIS:CORE:5.0.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.V2M-MPS2_CMx_BSP.1.5.0.pack
+                Keil::Device:Startup:1.0.0
+                ARM V2M-MPS2 Board Support PACK for Cortex-M System Design Kit Devices
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\AndyWork\RTOS\SOS\RTE\Device\CMSDK_CM3
+  D:\AndyWork\RTOS\SOS\RTE\_Target_1
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include
+  D:\Keil_v5\ARM\PACK\Keil\V2M-MPS2_CMx_BSP\1.5.0\Device\CMSDK_CM3\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\CMSDK_CM3\Source\ARM\startup_CMSDK_CM3.s
+      Source file:   Device\CMSDK_CM3\Source\system_CMSDK_CM3.c
+      Include file:  CMSIS\Config\RTE_Device.h
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
