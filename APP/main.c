@@ -36,7 +36,7 @@
 #define NVIC_VTOR 0xE000ED08
 
 unsigned int rst_vtor;
-void *new_vtor[VTOR_LEN] __attribute__((at(0x203ff400))) ;
+void *new_vtor[VTOR_LEN] __attribute__((at(0x20005000 - VTOR_LEN*sizeof(void *))));
 
 int irq_cnt = 0;
 int svc_cnt = 0;
@@ -185,7 +185,6 @@ int main(int argc, char **argv)
 	os_create_tsk(d_task, (void *)d_stack, sizeof(d_stack), 1);
 	os_start();
 
-	while(1);
-
-	return 0;
+	/* never reach to this place */
+	return -1;
 }

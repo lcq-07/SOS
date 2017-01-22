@@ -10,8 +10,8 @@
 
 #include "sos.h"
 
-#define ksp 0x203ff400
-#define tsp 0x20300000
+#define ksp 0x20004000
+#define tsp (ksp - 8*1024)
 #define NVIC_INT_CTL 0xe000ed04
 #define pendsv_set   0x10000000
 
